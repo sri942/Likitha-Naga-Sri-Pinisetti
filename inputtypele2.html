@@ -1,0 +1,106 @@
+<html>
+<body>
+<h2>input type elements</h2>
+<h3>type date field restrictions</h3>
+<form action="/action_page.php">
+<label for="datemin">enter date after 2002-01-01</label>
+<br>
+<input type="date"id="datemin" name="datemin" min=
+'2002-01-02">
+<br><br>
+<label for="datemax">enter date before 1990-01-01</label>
+<br>
+<input type="date" id="datemax" name="datemax" max=
+'1989-11-02">
+<br><br>
+<input type="submit" value="submit">
+</form>
+<h3>local date field</h3>
+<form action="/action_page.php">
+<label for="birthday time">birthday(date and time)</label>
+<br>
+<input type="datetime-local" id="birthdaytime" name="birthdaytime" value="submit" >
+</form>
+<h3>file upload</h3>
+<form action="/action_page.php">
+<label for="myfile">select a file:</label>
+<br>
+<input type="file" id="myfile" name="myfile" >
+<br><br>
+<input type="submit" value="submit">
+</form>
+<h3>hidden field</h3>
+<form action="/action_page.php">
+<label for="fname">firstname:</label>
+<input type="text" id="fname" name="fname" >
+<br><br>
+<input type="hidden" id="custId" name="custId" value="3487" >
+<input type="submit" value="submit">
+</form>
+<h3>monyh field</h3>
+<form action="/action_page.php">
+<label for="bdaymonth">birthday(month and year)</label>
+<input type="month" id="bdaymonth" name="bdaymonth" >
+<br><br>
+<input type="submit" value="submit">
+</form>
+<h3>number field</h3>
+<form action="/action_page.php">
+<label for="quantity">quantity b/w(1 and 10)</label>
+<input type="number" id="quantity" name="quantity" min="1" max="10">
+<br>
+<input type="submit" value="submit">
+</form>
+<h3>range field</h3>
+<form action="/action_page.php" method="get">
+<label for="vol">volume b/w 0 and 50:</label>
+<br>
+<input type="range" id="vol" name="vol" min="0" max="50" >
+<br><br>
+<input type="submit" value="submit">
+</form>
+<h3>type search</h3>
+<form action="/action_page.php">
+<label for="gsearch">search google:</label>
+<br>
+<input type="search" id="gsearch" name="gsearch" >
+<br><br>
+<input type="submit" value="submit">
+</form>
+<h3>type telephone field</h3>
+<form action="/action_page.php">
+<label for="phone">enter a phone number:</label>
+<br>
+<input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{4}-[0-9]{3}" required>
+<br><br>
+<small>format:123-4567-897</small>
+<br><br>
+<input type="submit" value="submit">
+</form>
+<h3>time input control</h3>
+<form action="/action_page.php">
+<label for="appt">select time:</label>
+<input type="time" id="appt" name="appt" >
+<input type="submit" value="submit">
+</form>
+<h3> URL input field</h3>
+<form action="/action_page.php">
+<label for="homepage">add ur homepage</label>
+<br>
+<input type="url" id="homepage" name="homepage" >
+<br><br>
+<input type="submit" value="submit">
+</form>
+<h3>week input control</h3>
+<form action="/action_page.php">
+<label for="week">select a week:</label>
+<br>
+<input type="week" id="week" name="week" >
+<input type="submit" value="submit">
+</form>
+</body>
+</html>
+
+
+
+
