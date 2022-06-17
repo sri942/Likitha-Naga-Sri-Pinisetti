@@ -1,0 +1,13 @@
+a=[1,5,3,8,2];
+b=[6,4,9,7,0];
+console.log(a.concat(b));
+c=[13,11,27,17,39];
+console.log(a.concat(b,c));
+console.log(a.push(12));
+console.log(a);
+console.log(a.unshift(16));
+console.log(a);
+console.log(a.pop());
+console.log(a.shift());
+console.log(c.slice(3));
+console.log(b.splice(2));
