@@ -1,0 +1,17 @@
+<html>
+    <body>
+        <h1>ELEMENT OBJECT</h1>
+        <h2>THE insertBefore() method</h2>
+        <ul id="priolist">
+            <li>soil</li>
+            <li>water</li>
+        </ul>
+        <script>
+            const newNode=document.createElement("li");
+            const textNode=document.createTextNode("air");
+            newNode.appendChild(textNode);
+            const list=document.getElementById("priolist");
+            list.insertBefore(newNode,list.children[0]);
+        </script>
+    </body>
+</html>

@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title>SlideShow</title>
+<script>
+    window.onload=function(){
+        var image = document.getElementById("aaa");
+        var img_array=["hill.jpg","nature.jpg","adv.jpeg"];
+        var index=0;
+        var interval=2000;
+function slide(){
+image.src=img_array[index++%img_array.length];
+    }
+setInterval(slide,interval);
+    }
+</script>
+</head>
+<body>
+<h1 align="center">
+    my pictures
+</h1>
+<img id="aaa" src="hill.jpg" width="500px" height="500px" name="image"/>
+</body>
+</html>

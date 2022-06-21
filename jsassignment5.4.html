@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>canvas</title>
+        <style>
+            #cav1{background-color:red;}
+            #cav2{background-color:powderblue;}
+        </style>
+    </head>
+
+    <body>
+        <canvas id="myycanvass" width="200px" height="200px" style="border:2px solid black;"></canvas>
+        <script >
+            var q=document.getElementById("myycanvass");
+            var ctx=q.getContext("2d");
+            ctx.moveTo(0,0);
+            ctx.lineTo(200,100);
+            ctx.stroke();
+        </script>
+        <script>
+            var q=document.getElementById("myycanvass");
+            var ctx=q.getContext("2d");
+            ctx.bringPath();
+            ctx.arc(95,50,40,0,2*Math.PI);
+            ctx.stroke();
+        
+        </script>
+    </body>
+</html>
