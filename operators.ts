@@ -1,0 +1,25 @@
+let s:number = 20;
+let r:number = 30;
+let c = r + s;
+console.log( c );
+let d:number = 30;
+let e:number = 20;
+let f= d - e;
+console.log( f );
+let g:number = 30;
+let h:number = 20;
+let j = g * h;
+console.log( j);
+let k:number = 100;
+let l:number = 20;
+let m= k / l;
+console.log( m );
+let n:number = 95;
+let o:number = 20;
+let p = n % o;
+console.log( p );
+let y:number= 55;
+y++;
+console.log( y)
+y--;
+console.log(  y);

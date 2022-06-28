@@ -1,0 +1,20 @@
+let x:number = 10;
+let z:number = 20;
+let u:number=10;
+console.log(x==z);     
+console.log(x==10);    
+console.log(x===z);    
+console.log(x===10);   
+console.log(x!=z);     
+console.log(x!=10);    
+console.log(x!==z);     
+console.log(x!==10);    
+console.log(z>x);     
+console.log(z>30);
+console.log(x>=u);     
+console.log(u>=30);
+console.log(x<z);      
+console.log(z<10);
+console.log(x<=z);     
+console.log(x<=10);
+
